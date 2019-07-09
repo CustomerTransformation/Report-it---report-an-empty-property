@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5d24657d6f6b1",
+        "Name": "RP037 - Report an empty property - email to the business",
+        "Type": "EMAIL",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "Community",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"subject\":\"New {form_name} form submitted - {case_ref}\",\"fromName\":\"{NoReplyEmail_N} \",\"from\":\"{NoReplyEmail} \",\"recipients_to\":\"emptyproperties@portsmouthcc.gov.uk\",\"recipients_cc\":\"\",\"recipients_bcc\":\"\",\"pdf_attachments\":\"5c4ae00af0e30\",\"body\":\"<div style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt; white-space: pre-wrap;\\\">\\n<div>Hello,</div>\\n\\n<div></div>\\n\\n<p>A new {form_name} form has been submitted.</p>\\n\\n<div></div>\\n\\n<p>Yours sincerely,</p>\\n\\n<p>Portsmouth City Council</p>\\n</div>\",\"attachments\":\"{uploadEvidence}\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"Daniela.Dutu@portsmouthcc.gov.uk\"}"
+    }
+]
